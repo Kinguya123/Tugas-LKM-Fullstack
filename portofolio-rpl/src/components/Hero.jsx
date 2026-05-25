@@ -10,9 +10,9 @@ const Hero = () => {
         <Link to="/projects" className="btn btn-primary">
           📁 Lihat Proyek
         </Link>
-        <Link to="/skills" className="btn btn-outline">
-          ⚡ Lihat Skill
-        </Link>
+        <a href="#skill" className="btn btn-secondary">
+          ⚡lihat skill
+        </a>
       </div>
     </section>
   );
